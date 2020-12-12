@@ -34,7 +34,7 @@ const Character = (props) => {
                 <h1>{character.name}</h1>
                 <h2>{character.status}</h2></>
             }
-            <Link to={`/${props.match.params.page}`}><button>go to the main page</button></Link>
+            <Link to={`/react-rick/${props.match.params.page}`}><button>go to the main page</button></Link>
         </>
     );
 }
